@@ -11,7 +11,7 @@ The aim of this exercise is to:
 - Use the truth data to tune your method  
 - Reflect on how you would improve the approach with more time  
 
-This assignment is designed to be achievable within the allotted time and to form the basis of technical discussion in the next interview stage.
+This assignment is a practical component of the interview process designed to evaluate how you approach problem-solving and demonstrate your coding skills. It uses real methane concentration data from Mirico's industrial monitoring systems to assess your analytical and technical abilities in a realistic context. Note that this project does not immediately reflect the types of CFD challenges to be dealt with in the role. Rather, this project is about problem-solving, data analysis, and your ability to work pragmatically with real-world data constraints.
 
 ---
 
@@ -24,10 +24,9 @@ Part of the assessment is how you prioritise and allocate your time. If you choo
 
 We are not looking for a perfect solution. Instead, we are interested in:
 
-- Your reasoning process  
-- How you break down the problem  
-- Your coding clarity  
-- How you think about model behaviour and performance  
+- Your problem-solving approach and reasoning process  
+- The clarity and quality of your code  
+- How you think about real-world data challenges  
 
 ---
 
@@ -149,4 +148,4 @@ Please submit:
 
 This assignment is intentionally scoped to balance technical effort with time constraints. The simplicity of the detection method is deliberate — what matters most is your reasoning and your ability to evaluate and improve it.
 
-Your work will form the foundation of a deeper technical discussion in the next interview stage, where we will explore your design decisions and potential alternative approaches.
+Your work will form part of the interview process, serving as supporting information on your problem-solving approach and coding capabilities. In the next interview stage, we may explore your design decisions and potential alternative approaches based on what you've submitted.
