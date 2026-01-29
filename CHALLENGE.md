@@ -5,6 +5,7 @@ This challenge is designed to assess your ability to work in a python developmen
 You can run the development server with the following command:
 
 ```bash
+uv run alembic upgrade head # This creates the sqlite database db.sqlite, you only need to run it once.
 uv run pydantic dev
 ```
 
