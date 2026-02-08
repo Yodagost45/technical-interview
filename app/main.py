@@ -39,3 +39,10 @@ def get_vehicle_locations(session: SessionDep, vehicle_id: int):
     if not vehicle:
         raise HTTPException(status_code=404, detail="Vehicle not found")
     return vehicle.locations
+
+@app.get("/vehicles/{vehicle_id}/speed", response_model=str)
+def get__average_vehicle_speed(session: SessionDep, vehicle_id: int):
+    vehicle = session.get(Vehicle, vehicle_id)
+    if not vehicle:
+        raise HTTPException(status_code=404, detail="Vehicle not found")
+    return str(vehicle.calculate_average_speed()) + " km/hr"

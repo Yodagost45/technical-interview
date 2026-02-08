@@ -6,6 +6,14 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "fastapi>=0.128.0",
+    "geopy>=2.4.1",
+    "nmea>=0.1.4",
+    "nmea-parser>=0.5.0",
+    "pandas>=3.0.0",
+    "pyinstaller>=6.18.0",
+    "pynmeagps>=1.1.0",
+    "pytest>=9.0.2",
+    "requests>=2.32.5",
     "sqlalchemy>=2.0.46",
     "sqlmodel>=0.0.31",
 ]
