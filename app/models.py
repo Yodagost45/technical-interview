@@ -20,6 +20,9 @@ class Vehicle(VehicleBase, table=True):
         previous_lon = 0
         previous_time_utc = 0
         
+        if len(self.locations) == 0:
+            return "0"
+
         for location in self.locations:
             if previous_lat != 0 and previous_lon != 0 and previous_time_utc != 0:
                 coords_1 = (previous_lat, previous_lon)

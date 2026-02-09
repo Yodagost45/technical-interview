@@ -72,8 +72,3 @@ def parse_file(nmea_filename, output_csv_filename):
         #File does not exist
         print("hi")
         raise Exception("File does not exist.")
-
-#def test_parse_file():
-
-    #assert parse_file()
-
