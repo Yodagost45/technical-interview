@@ -16,14 +16,20 @@ def get_and_print_average_speed(vehicle_id):
 
     print("Average speed of vehicle with ID == " + str(vehicle_id) + ": " + str(get_speed_request.text).replace('"', '') )
 
+def get_vehicle_id_input():
+    while True:
+        try:
+            print("Get average speed of vehicle: (Enter id)")
+            return int(input())
+        except:
+            print("Vehicle id must be an integer.")
 
 # CODE STARTS HERE ------------------------------------------------------------------------
 running = True
 while(running):
     get_vehicles_request = print_vehicle_list()
 
-    print("Get average speed of vehicle: (Enter id)")
-    vehicle_id = int(input())
+    vehicle_id = get_vehicle_id_input()
 
     if check_vehicle_exists(get_vehicles_request, vehicle_id):
         #Vehicle exists
